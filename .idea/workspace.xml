@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5885d59-9803-45c4-ae49-512b5d3278a2" name="Default Changelist" comment="算法与数据结构&#10;新增数组类">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/sort20210520/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/sort20210520/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/sort20210520/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/sort20210520/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f5885d59-9803-45c4-ae49-512b5d3278a2" name="Default Changelist" comment="排序">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/sort20210520/MergetSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
+  <component name="RunManager" selected="Application.MergetSort">
     <configuration name="BubbleSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nimo.sort20210520.BubbleSort" />
       <module name="dataStructureArithmetic" />
@@ -90,6 +84,19 @@
     </configuration>
     <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nimo.sort20210520.InsertSort" />
+      <module name="dataStructureArithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nimo.sort20210520.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nimo.sort20210520.MergetSort" />
       <module name="dataStructureArithmetic" />
       <extension name="coverage">
         <pattern>
@@ -127,15 +134,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TsetBooleanName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nimo.demo.TsetBooleanName" />
-      <module name="dataStructureArithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nimo.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergetSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.BubbleSort (1)" />
-        <item itemvalue="Application.TsetBooleanName" />
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +322,9 @@
       <workItem from="1621497304910" duration="1410000" />
       <workItem from="1621499221738" duration="92000" />
       <workItem from="1621499930643" duration="6937000" />
+      <workItem from="1621563757617" duration="1396000" />
+      <workItem from="1621856182774" duration="3018000" />
+      <workItem from="1621907616725" duration="2357000" />
     </task>
     <task id="LOCAL-00001" summary="排序算法">
       <created>1621337827153</created>
@@ -337,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621426903797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="排序">
+      <created>1621563820505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621563820505</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +376,7 @@
     <MESSAGE value="排序算法" />
     <MESSAGE value="算法与数据结构" />
     <MESSAGE value="算法与数据结构&#10;新增数组类" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法与数据结构&#10;新增数组类" />
+    <MESSAGE value="排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序" />
   </component>
 </project>
