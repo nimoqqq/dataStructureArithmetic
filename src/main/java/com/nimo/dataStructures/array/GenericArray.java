@@ -1,4 +1,4 @@
-package com.nimo.array;
+package com.nimo.dataStructures.array;
 
 /**
  * @title: GenericArray

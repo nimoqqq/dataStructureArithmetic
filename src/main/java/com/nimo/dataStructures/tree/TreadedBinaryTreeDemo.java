@@ -1,4 +1,4 @@
-package com.nimo.tree;
+package com.nimo.dataStructures.tree;
 
 /**
  * @program: dataStructureArithmetic

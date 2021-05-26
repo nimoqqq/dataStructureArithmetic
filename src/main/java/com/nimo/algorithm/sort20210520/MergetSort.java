@@ -1,32 +1,28 @@
-package com.nimo.sort20210525;
-
-import com.nimo.sort20210520.MergetSort;
+package com.nimo.algorithm.sort20210520;
 
 import java.util.Arrays;
 
 /**
- * 合并排序
- *
- * @title: MergeSort
+ * @title: MergetSort
  * @Author Chuf
- * @Date: 2021/5/25 8:06 下午
+ * @Date: 2021/5/24 7:45 下午
  * @Version 1.0
  */
-public class MergeSort {
+public class MergetSort {
     public static void main(String[] args) {
-        MergeSort mergetSort = new MergeSort();
+        MergetSort mergetSort = new MergetSort();
         int[] arr = { 8, 4, 5, 7, 1, 3, 6, 2 };
-        mergetSort.mergeSort(arr,0,arr.length-1);
+        mergetSort.mergetSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
 
-    public void mergeSort(int[] arr,int left,int right){
+    public void mergetSort(int[] arr, int left, int right) {
         if (left >= right) return;
 
         int mid = left + (right - left) / 2;
 
-        mergeSort(arr, left, mid);
-        mergeSort(arr, mid+1, right);
+        mergetSort(arr, left, mid);
+        mergetSort(arr, mid+1, right);
 
         merge(arr, left, mid, right);
     }
@@ -34,11 +30,12 @@ public class MergeSort {
     public void merge(int[] arr, int left, int mid, int right) {
         int i = left;
         int j = mid + 1;
-        int k = 0;//定位临时数组索引
+        int k = 0;
 
-        //定义临时数组
+        //创建一个空数组
         int[] tmp = new int[right - left + 1];
 
+        //进行排序
         while (i <= mid && j <= right) {
             if (arr[i] > arr[j]) {
                 tmp[k++] = arr[j++];
@@ -47,7 +44,7 @@ public class MergeSort {
             }
         }
 
-        //判断哪个子集合有剩余
+        //判断哪个子集数组中有剩余的数据
         int start = i;
         int end = mid;
         if (j <= right) {
@@ -55,13 +52,13 @@ public class MergeSort {
             end = right;
         }
 
-        //将子集合中剩余的数据放到tmp
+        //将剩余的数据放到临时数组tmp
         while (start <= end) {
             tmp[k++] = arr[start++];
         }
 
-        //将tmp 拷贝到 arr
-        for (i = 0; i <= right-left; i++) {
+        //将tmp中的数组拷贝到arr
+        for (i = 0; i <= right - left; i++) {
             arr[left+i] = tmp[i];
         }
     }

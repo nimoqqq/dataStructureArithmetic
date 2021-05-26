@@ -1,4 +1,4 @@
-package com.nimo.sort20210525;
+package com.nimo.algorithm.sort20210525;
 
 import java.util.Arrays;
 

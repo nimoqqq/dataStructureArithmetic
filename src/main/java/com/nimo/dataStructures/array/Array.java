@@ -1,4 +1,4 @@
-package com.nimo.array;
+package com.nimo.dataStructures.array;
 
 /**
  * 1）数组的插入、删除、按照下标随机访问操作
@@ -16,6 +16,14 @@ public class Array {
     private int n;
     //实际个数
     private int count;
+
+    public int getN() {
+        return n;
+    }
+
+    public void setN(int n) {
+        this.n = n;
+    }
 
     public Array(int capacity) {
         this.data = new int[capacity];

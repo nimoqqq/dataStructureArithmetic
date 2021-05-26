@@ -1,6 +1,4 @@
-package com.nimo.tree;
-
-import com.sun.tools.hat.internal.model.Root;
+package com.nimo.dataStructures.tree;
 
 /**
  * @program: dataStructureArithmetic
