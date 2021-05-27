@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5885d59-9803-45c4-ae49-512b5d3278a2" name="Default Changelist" comment="LRU Cache">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/LRU/LRUBaseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/sort20210527/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/sort20210527/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/sort20210527/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/sort20210527/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nimo/dataStructures/linkedlist/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/LRU/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nimo/algorithm/LRU/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +73,26 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.LRUCache">
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210520.InsertSort" />
+  <component name="RunManager" selected="Application.ShellSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210527.BubbleSort" />
       <module name="dataStructureArithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nimo.algorithm.sort20210520.*" />
+          <option name="PATTERN" value="com.nimo.algorithm.sort20210527.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210527.InsertSort" />
+      <module name="dataStructureArithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nimo.algorithm.sort20210527.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210525.MergeSort" />
-      <module name="dataStructureArithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nimo.algorithm.sort20210525.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210525.SelectSort" />
+      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210527.SelectSort" />
       <module name="dataStructureArithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nimo.algorithm.sort20210525.*" />
+          <option name="PATTERN" value="com.nimo.algorithm.sort20210527.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,14 +140,25 @@
       </method>
     </configuration>
     <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210525.ShellSort" />
+      <option name="MAIN_CLASS_NAME" value="com.nimo.algorithm.sort20210527.ShellSort" />
       <module name="dataStructureArithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nimo.algorithm.sort20210525.*" />
+          <option name="PATTERN" value="com.nimo.algorithm.sort20210527.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.LRUCache" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +346,7 @@
       <workItem from="1621995869024" duration="1758000" />
       <workItem from="1622017336071" duration="2329000" />
       <workItem from="1622029517680" duration="2437000" />
-      <workItem from="1622105825535" duration="535000" />
+      <workItem from="1622105825535" duration="8325000" />
     </task>
     <task id="LOCAL-00001" summary="排序算法">
       <created>1621337827153</created>
@@ -388,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622031948359</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LRU Cache">
+      <created>1622106373008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622106373008</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
